@@ -1,0 +1,5 @@
+statefulset: 
+  replicas: 3 # by default is 1
+  imageVersion: 1.0.0 # by default is latest
+  storage: "1Gi" # by default is 8Gi
+ 
