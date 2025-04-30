@@ -2,11 +2,11 @@ Deployment:
   imageVersion: 1.2.0
 hpa: 
   cpuTarget: 5 # by default is 5%
-containers:
+containers: # this one will be in config.yaml 
   - name: nginx
     ports:
       - containerPort: 8080
-ports:
+ports: #same as this too available in config.yaml
   - port: 80
     targetPort: 8080
 
