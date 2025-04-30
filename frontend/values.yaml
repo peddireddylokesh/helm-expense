@@ -1,0 +1,4 @@
+Deployment:
+  imageVersion: 1.0.0
+hpa: 
+  cpuTarget: 5 # by default is 5%
